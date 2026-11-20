@@ -1,0 +1,549 @@
+{
+  "schema": "leonida-field-guide/v1",
+  "updated": "2026-11-20",
+  "note": "Each entry paraphrases the named reporting in the author's words. Supplied PSN descriptions are reproduced separately as sources. An explicit 'author inference' label denotes interpretation or a planning suggestion rather than a verified unlock rule.",
+  "guides": {
+    "1": {
+      "summary": "A launch-list platinum with one playthrough, no difficulty requirement and no online trophies.",
+      "steps": [
+        "Finish the story while keeping manual saves at chapter boundaries; published reporting says free roam remains available, but mission replay does not.",
+        "Clear every other single-player requirement, then use the roadmap's final audit to fill the remaining activity, collectible and 100% entries.",
+        "Avoid cheats during the platinum run: the cited everytrophy guide says they disable trophies and saving.",
+        "The platinum unlocks when the other 54 trophies are complete; it has no separate activity grind."
+      ],
+      "sources": ["Official PSN description: Congratulations! You're a Leonida Legend.", "everytrophy.com — Grand Theft Auto VI: full platinum guide and all 55 trophies: two golds, six silvers, 46 bronzes and no online or DLC trophies.", "GTA6 Field Guide — GTA 6 trophy list: PS5 list totals 55 trophies and 1,350 points."]
+    },
+    "2": {
+      "summary": "The opening story marker and a good time to set up long-term progress tracking.",
+      "steps": [
+        "Begin the story and play through the Chapter 1 mission Gone Fishing.",
+        "Complete the mission normally; no optional medal or performance condition is reported.",
+        "Author inference: use the opening free-roam stretches to scan new vehicles and do unfamiliar activities so the later 100-vehicle and activity-type targets accumulate naturally."
+      ],
+      "sources": ["Official PSN description: Complete Gone Fishing.", "everytrophy.com — GTA VI full platinum guide: Gone Fishing is an early Chapter 1 mission and the trophy is not missable."]
+    },
+    "3": {
+      "summary": "Finish Chapter 1, but do not instantly skip its early-Chapter 2 trophy trigger.",
+      "steps": [
+        "Complete the missions that finish Chapter 1.",
+        "If the trophy does not unlock immediately, continue into What's in the Bag?, the first Chapter 2 mission; everytrophy reports the unlock there.",
+        "Before leaving Chapter 1, follow Lucia to Jason's balcony and accept the morning meditation after Down to Earth. Its requirement for the meditation trophy is not confirmed, so treat it as a precaution."
+      ],
+      "sources": ["Official PSN description: Complete Chapter 1.", "everytrophy.com — GTA VI full platinum guide: chapter unlock timing and the unobtainable-after-Chapter 1 balcony meditation.", "GTA6 Field Guide — GTA 6 trophies and achievements roadmap: advises chapter manual saves and flags Positive Mental Attitude as potentially missable."]
+    },
+    "4": {
+      "summary": "Close Chapter 2 and continue into Chapter 3 for the unlock, then use the larger free-roam sandbox for partner and collectible work.",
+      "steps": [
+        "Play the Chapter 2 story missions through the chapter's conclusion.",
+        "Complete Welcome to Vice City, the first Chapter 3 mission; everytrophy reports that this is where the Chapter 2 trophy pops.",
+        "After Coffee Break, pair Jason and Lucia for roaming: the same guide identifies this mission as opening shared free-roam play needed by partner activities."
+      ],
+      "sources": ["Official PSN description: Complete Chapter 2.", "everytrophy.com — GTA VI full platinum guide: chapter timing and the Coffee Break partner-free-roam unlock."]
+    },
+    "5": {
+      "summary": "Chapter 3 is the gateway to the Key Cloner, Snap Gun, Dye Pack Jammer and several robbery side lines.",
+      "steps": [
+        "Complete Chapter 3's story missions.",
+        "Continue through Ocean Beach and Another Life at the start of Chapter 4; the reported trophy trigger comes after those first two missions.",
+        "Author inference: before the heaviest collectible travel, clear the named Chapter 3 jobs for the Key Cloner, Snap Gun and Dye Pack Jammer so later robbery and vehicle targets can be handled without replaying unavailable missions."
+      ],
+      "sources": ["Official PSN description: Complete Chapter 3.", "everytrophy.com — GTA VI full platinum guide: Chapter 4 unlock timing and Chapter 3 robbery-tool availability."]
+    },
+    "6": {
+      "summary": "The last chapter checkpoint before Chapter 5; Chapter 4 also opens bank-vault work.",
+      "steps": [
+        "Complete Chapter 4, including its named mission trophies.",
+        "Finish That's Where The Money Is…, the optional Chapter 4 mission that everytrophy says opens bank vault robberies.",
+        "Complete Chapter 4 to earn this story trophy, then make a manual save before proceeding into the final chapter."
+      ],
+      "sources": ["Official PSN description: Complete Chapter 4.", "everytrophy.com — GTA VI full platinum guide: Chapter 4 contents and optional bank-vault unlock mission."]
+    },
+    "7": {
+      "summary": "The gold story finisher. Free roam continues after the credits, but missions cannot be replayed.",
+      "steps": [
+        "Complete the story's final mission; no particular approach or mission medal is required according to the cited guide.",
+        "Save separately around the finale if you want a chapter reference, because everytrophy reports no mission replay.",
+        "Return to free roam after the credits and use the roadmap stages for the remaining side jobs, collectibles and 100% checklist."
+      ],
+      "sources": ["Official PSN description: Complete the final mission.", "everytrophy.com — GTA VI full platinum guide: final-mission completion, free roam after credits and no mission replay."]
+    },
+    "8": {
+      "summary": "An automatic Chapter 2 story unlock with no reported extra objective.",
+      "steps": [
+        "Advance the story into Chapter 2 and start Breakfast Run.",
+        "Complete Breakfast Run to earn the trophy.",
+        "Do not mistake the Chapter 2 checkpoint for this mission trophy; the chapter unlock is reported later, on entry to Chapter 3."
+      ],
+      "sources": ["Official PSN description: Complete Breakfast Run.", "everytrophy.com — GTA VI full platinum guide: Breakfast Run is a Chapter 2 mission with no special requirement."]
+    },
+    "9": {
+      "summary": "The Chapter 3 heist checkpoint; bold preparation is unnecessary beyond completing the mission.",
+      "steps": [
+        "Advance through Chapter 3 until The Cartel Heist becomes available.",
+        "Finish The Cartel Heist to unlock the trophy.",
+        "Use the same chapter's side jobs to obtain the Key Cloner, Snap Gun and Dye Pack Jammer for later optional robbery routes."
+      ],
+      "sources": ["Official PSN description: Complete The Cartel Heist.", "everytrophy.com — GTA VI full platinum guide: The Cartel Heist mission and Chapter 3 robbery-tool progression."]
+    },
+    "10": {
+      "summary": "One of the three Chapter 4 mission trophies, earned solely by completing Child's Play.",
+      "steps": [
+        "Start Child's Play when Chapter 4's main story reaches it.",
+        "Complete the mission; everytrophy says there is no extra in-mission objective for the trophy.",
+        "Continue the chapter for the Headliners and VCIA Takedown story trophies."
+      ],
+      "sources": ["Official PSN description: Complete Child's Play.", "everytrophy.com — GTA VI full platinum guide: Child's Play is the first of three Chapter 4 mission trophies and has no extra objective."]
+    },
+    "11": {
+      "summary": "Headliners is a direct story completion unlock, not a mission-rating challenge.",
+      "steps": [
+        "Reach Headliners after Child's Play in Chapter 4.",
+        "Complete the mission to earn the trophy.",
+        "Do not chase a gold mission rating: the cited everytrophy report says the game has no story-mission medals."
+      ],
+      "sources": ["Official PSN description: Complete Headliners.", "everytrophy.com — GTA VI full platinum guide: Headliners placement in Chapter 4 and absence of story-mission medals."]
+    },
+    "12": {
+      "summary": "The Chapter 4 airport story mission is distinct from the separate stolen-jet secret.",
+      "steps": [
+        "Reach VCIA Takedown during Chapter 4.",
+        "Finish the mission; no special result or optional objective is reported.",
+        "Keep Catch Me If You Can on your cleanup list: that separate trophy concerns a boarding-bridge passenger jet outside the story."
+      ],
+      "sources": ["Official PSN description: Complete VCIA Takedown.", "everytrophy.com — GTA VI full platinum guide: VCIA Takedown and the distinction from the airport secret trophy."]
+    },
+    "13": {
+      "summary": "The sole named mission trophy in the fifth and final chapter.",
+      "steps": [
+        "Begin Chapter 5's Operation Savage Glory through the main story.",
+        "Complete the mission; there is no reported requirement based on how it is played.",
+        "Keep a manual pre-finale save so a later choice never blocks your ability to revisit that chapter state."
+      ],
+      "sources": ["Official PSN description: Complete Operation Savage Glory.", "everytrophy.com — GTA VI full platinum guide: Chapter 5 mission placement and manual-save advice."]
+    },
+    "14": {
+      "summary": "The central gold completion target; many requirements overlap with other trophies but several ask for deeper totals.",
+      "steps": [
+        "Finish the story to expose the 100% checklist in the progress menu; earlier eligible work is already counted.",
+        "Complete the everytrophy-listed full requirements: 8 bank vaults, 39 gang operations, underwater discoveries, all Shooting Range golds, 42 drone races and Bret's 15 Target Decks.",
+        "Bring the listed partial totals to at least 100 optional missions, 200 of 277 vehicles, 100 of 255 animals studied with binoculars, 15 of 18 meditations, 70 of 80 challenges and 300 stunts.",
+        "Open the 100% checklist and clear its remaining entries; this guide treats its exact state, not these planning subtotals alone, as the final authority."
+      ],
+      "sources": ["Official PSN description: Attain 100% Completion.", "everytrophy.com — GTA VI full platinum guide: enumerated full and partial 100% checklist requirements.", "Author inference: use the in-game checklist as the final audit because this route groups individual trophy targets rather than reproducing the whole completion screen."]
+    },
+    "15": {
+      "summary": "A large but flexible counter: 250 successful stunts out of 397 reported opportunities.",
+      "steps": [
+        "Choose any stunt mix: the cited guide lists 130 stunt jumps, 202 under-bridge flights, 40 knife flights and 25 base jumps.",
+        "Use under-bridge flights for quick batches if you are comfortable with a plane; each completed stunt once is enough and its optional challenge is unnecessary.",
+        "Check the activities section of the progress menu until the count reaches 250.",
+        "If aiming for A Long Road, continue to the higher 300-stunt completion target."
+      ],
+      "sources": ["Official PSN description: Complete 250 Stunts.", "everytrophy.com — GTA VI full platinum guide: 397 total stunt opportunities, category totals, optional challenges and the 300-stunt 100% threshold."]
+    },
+    "16": {
+      "summary": "Nine small samples, collected early by rotating through activities rather than grinding one.",
+      "steps": [
+        "Try fishing, hunting, golf, a Shooting Range, pool, basketball, a video game and a stunt once each.",
+        "Win a car race, race challenge or Top Fun drone race for the ninth activity type; participating without winning is not the reported condition.",
+        "For basketball, everytrophy says one basket is sufficient; finishing a video game can overlap with Stick Fiddler.",
+        "Open Activities in the progress menu and play any remaining type shown as incomplete."
+      ],
+      "sources": ["Official PSN description: Try each type of activity once.", "everytrophy.com — GTA VI full platinum guide: nine qualifying activity types, the race-win condition and one-basket basketball detail."]
+    },
+    "17": {
+      "summary": "All 42 Shooting Range challenges need gold, a useful long-term investment in Focus.",
+      "steps": [
+        "Visit the reported 12 Shooting Ranges and work through 42 challenges in total.",
+        "Earn gold rather than merely passing every challenge; these golds also belong to the 100% checklist.",
+        "Repeat missed challenges using familiar weapons after sampling the targets and timing.",
+        "Author inference: prioritize ranges before Gunslinger because everytrophy reports that Shooting Range performance raises Focus, though it does not publish a single optimal medal strategy."
+      ],
+      "sources": ["Official PSN description: Earn a gold medal in all Shooting Range challenges.", "everytrophy.com — GTA VI full platinum guide: 42 challenges across 12 ranges, overlap with 100%, and their Focus benefit.", "GTA6 Field Guide — GTA 6 trophy list: confirms The Shootist as one of six silvers and reproduces the official gold-medal condition."]
+    },
+    "18": {
+      "summary": "One drone-race win at each of 14 locations; full completion extends the assignment.",
+      "steps": [
+        "Find the Top Fun drone-race locations and complete each site's race until you win once.",
+        "Record one win at each of the 14 reported locations; repeated wins at one venue do not substitute for another venue.",
+        "For 100% completion, finish all 42 drone races while you are already traveling between the locations."
+      ],
+      "sources": ["Official PSN description: Win a Top Fun Drone Race at every location.", "everytrophy.com — GTA VI full platinum guide: 14 locations versus 42 races required by the wider 100% checklist."]
+    },
+    "19": {
+      "summary": "The word ‘different’ is the constraint: 20 unique wins, not 20 repeats.",
+      "steps": [
+        "Enter and win races you have not beaten before.",
+        "Choose 20 of the reported 40 available races; you can omit the venues or vehicle classes least suited to you.",
+        "Check your race history before repeats if the count stalls, because a second win at the same race does not count."
+      ],
+      "sources": ["Official PSN description: Win 20 different races.", "everytrophy.com — GTA VI full platinum guide: 40 available races and the unique-win requirement."]
+    },
+    "20": {
+      "summary": "An early side activity opened by meeting Cal during Chapter 1.",
+      "steps": [
+        "Meet Cal in the Chapter 1 mission Feng Shui.",
+        "Wait for his text, follow the purple fishing-spot icon and continue his fishing quest sequence.",
+        "Enter Cal's fishing challenge and beat his score; the trophy is for beating him, not simply finishing the introductory meeting."
+      ],
+      "sources": ["Official PSN description: Beat Cal in a fishing challenge.", "everytrophy.com — GTA VI full platinum guide: Feng Shui, Cal's text, purple icon and the final challenge."]
+    },
+    "21": {
+      "summary": "Finish one of four playable video games; optional game challenges are not required.",
+      "steps": [
+        "Choose Tenebrae Lux, Street Trash III or Time Jackers Rewind on a home television, or Bang For Your Buck at an arcade cabinet.",
+        "Play the selected game to its end; everytrophy reports that one completion is enough.",
+        "Use a comfortable title rather than clearing all four, and skip the separately listed video-game challenges unless they are needed for your 100% audit."
+      ],
+      "sources": ["Official PSN description: Complete an arcade game.", "everytrophy.com — GTA VI full platinum guide: the three home-TV titles, one arcade cabinet title, and no need for the games' bonus challenges."]
+    },
+    "22": {
+      "summary": "Andy is a Lucia-only side-character questline whose final mission awards the trophy.",
+      "steps": [
+        "Select Lucia and follow Andy's available side-character jobs; everytrophy identifies Andy as Lucia-only.",
+        "Author inference: when the quest marker is absent, advance the story and check Lucia's messages and the map again before assuming the strand has ended.",
+        "Continue Andy's chain through her final mission, which is the trophy's official requirement.",
+        "Author inference: after the story, inspect the free-roam map for unfinished side jobs rather than starting a new playthrough; the cited guide says the launch list has no missables except its unconfirmed meditation caution."
+      ],
+      "character": "Lucia only",
+      "sources": ["Official PSN description: Complete the final mission for Andy.", "everytrophy.com — Grand Theft Auto VI: full platinum guide and all 55 trophies: Andy's side-character strand is Lucia-only.", "GTA6 Field Guide — GTA 6 trophy list: confirms Andy's final mission is a separate bronze story-list entry.", "Author inference: the chapter, contact names and individual job sequence are not verified by the two fetched guides."]
+    },
+    "23": {
+      "summary": "Kenton combines wreck diving, chests and a metal detector; his apparent Chapter 1 departure is not permanent.",
+      "steps": [
+        "Meet Kenton under the green KR icon in Key Lento after he contacts you in Chapter 1.",
+        "Dive at the seven marked shipwrecks and recover their purple chests using the metal detector on the seabed.",
+        "Follow Kenton's jobs through the final one to unlock the trophy.",
+        "If he disappears after Chapter 1, wait for his later text to Jason and continue; everytrophy explicitly says the strand is not missable."
+      ],
+      "character": "Jason can resume the strand after Chapter 1",
+      "chapter_gate": "Starts Chapter 1",
+      "missable_note": "Reported not missable; Kenton later texts Jason",
+      "sources": ["Official PSN description: Complete the final mission for Kenton.", "everytrophy.com — GTA VI full platinum guide: seven shipwrecks, metal-detector chests, later contact with Jason and Kenton's Treasures progress entry."]
+    },
+    "24": {
+      "summary": "Billy's five Chapter 2 jobs culminate in Hometown Heroes and remain after the campaign.",
+      "steps": [
+        "Complete Coffee Break in Chapter 2, then visit Thrillbilly Mudclub in Kelly County.",
+        "Follow Billy's five missions in order; none is reported missable.",
+        "Complete the fifth mission, Hometown Heroes, to earn the trophy."
+      ],
+      "chapter_gate": "After Chapter 2 mission Coffee Break",
+      "sources": ["Official PSN description: Complete the final mission for Billy.", "everytrophy.com — GTA VI full platinum guide: five jobs at Thrillbilly Mudclub after Coffee Break, with Hometown Heroes last."]
+    },
+    "25": {
+      "summary": "Eight qualifying stranger strands are needed; several recognizable character chains do not count.",
+      "steps": [
+        "Work through stranger mission strands across Leonida rather than counting every unique contact automatically.",
+        "Do not count Moses, Tyrone, Yasmani, Andy, Billy or Eddie toward this trophy according to everytrophy.",
+        "Kirk, Kyle, Yago and Pilot Pete are reported as qualifying; for other characters, follow the trophy list's own eight-strand counter because the full qualifying set is not confirmed.",
+        "Complete strands after the story if necessary; they are not part of the cited 100% checklist."
+      ],
+      "sources": ["Official PSN description: Complete 8 mission strands for strangers across the state of Leonida.", "everytrophy.com — GTA VI full platinum guide: excluded characters, confirmed examples and an incomplete qualifying-strand list.", "Author inference: check the live trophy counter after each strand to learn whether an unconfirmed character qualifies rather than assuming every stranger counts."]
+    },
+    "26": {
+      "summary": "Randy asks for 16 specific sports cars, with WAiNK acting as your vehicle checklist.",
+      "steps": [
+        "Complete the Chapter 3 mission Clonin' Keys, Makin' GS and meet Randy under the RK icon in west Vice City.",
+        "Scan sports cars with WAiNK to see which are on Randy's 16-car list; everytrophy suggests hotel driveways around Vice Beach and Ocean Beach.",
+        "Deliver the requested cars and prefer undamaged examples for better payment, although condition is not required for the unlock.",
+        "Complete the 16th delivery and Randy's final job to finish the strand."
+      ],
+      "chapter_gate": "Chapter 3",
+      "sources": ["Official PSN description: Complete the final mission for Randy.", "everytrophy.com — GTA VI full platinum guide: 16-car list, Clonin' Keys, Makin' GS, scanning, search areas and condition-based payment."]
+    },
+    "27": {
+      "summary": "A Jason-only rampage against Tyrone's marked synthetic labs, ending in a dedicated shutdown mission.",
+      "steps": [
+        "Complete Chapter 3's Here, Kitty Kitty, then use Jason for Tyrone's missions.",
+        "Destroy the synthetic labs marked in purple around Vice City until Tyrone offers his final job.",
+        "Complete Shut Down the Labs to unlock the trophy.",
+        "Do not spend time switching to Lucia for this strand: the cited guide says only Jason can do it."
+      ],
+      "character": "Jason only",
+      "chapter_gate": "After Chapter 3 mission Here, Kitty Kitty",
+      "sources": ["Official PSN description: Complete the final mission for Tyrone.", "everytrophy.com — GTA VI full platinum guide: Jason-only gate, purple lab targets and final job Shut Down the Labs."]
+    },
+    "28": {
+      "summary": "The launch list's one cautionary collectible: the Chapter 1 balcony meditation may matter, even though that is not confirmed.",
+      "steps": [
+        "The morning after Down to Earth in Chapter 1, follow Lucia from the kitchen to Jason's balcony and accept her meditation before the chapter ends.",
+        "Meditate at the map's other spots; everytrophy reports an 18-spot total and that meditating with both Jason and Lucia counts twice.",
+        "Continue beyond Coffee Break in Chapter 2 to reach the last meditation with both characters together.",
+        "If pursuing 100%, note the cited guide's 15-of-18 requirement but do not use it to skip the uncertain Chapter 1 one; the trophy's own requirement is not confirmed."
+      ],
+      "chapter_gate": "First spot Chapter 1; final joint meditation after Chapter 2's Coffee Break",
+      "missable_note": "Potential Chapter 1 missable only; not confirmed",
+      "sources": ["Official PSN description: Meditate at every spot across Leonida.", "everytrophy.com — GTA VI full platinum guide: balcony sequence, 18 spots, double counting and explicit possibly-missable/unconfirmed label.", "GTA6 Field Guide — GTA 6 trophies and achievements roadmap: highlights the same potentially missable Chapter 1 meditation in its summary."]
+    },
+    "29": {
+      "summary": "Jason hunts for Bret after Chapter 2, with the exact trophy-triggering unique animal still unconfirmed.",
+      "steps": [
+        "Complete Coffee Break in Chapter 2, then respond to Bret's text as Jason and start Veteran Hunted in Lummox County.",
+        "Continue his hunting jobs and Target Decks; purple markers identify the requested animals.",
+        "Aim for a clean one-shot kill for better pay, though everytrophy says that is optional.",
+        "Work through all 15 Target Decks for 100%; do not claim a specific final animal triggers the trophy because the cited source has not verified one."
+      ],
+      "character": "Jason only",
+      "chapter_gate": "After Chapter 2's Coffee Break",
+      "sources": ["Official PSN description: Hunt a unique animal for Bret.", "everytrophy.com — GTA VI full platinum guide: Jason-only availability, Veteran Hunted, Target Decks and unconfirmed trophy-triggering animal.", "Author inference: completing the available Target Decks is a sensible route because no single verified trigger animal is published in the fetched guide."]
+    },
+    "30": {
+      "summary": "A flexible collectible silver: finish any three card sets, not every set in Leonida.",
+      "steps": [
+        "Check Collections in the progress menu to see your partial collectible-card sets.",
+        "Collect the missing cards in three selected sets, prioritizing sets already furthest along.",
+        "Stop at three completed sets for the trophy; additional card sets matter only if another completion goal asks for them."
+      ],
+      "sources": ["Official PSN description: Complete 3 Collectible Card sets.", "everytrophy.com — GTA VI full platinum guide: any three complete sets and using Collections to target missing cards."]
+    },
+    "31": {
+      "summary": "Scan any 100 eligible locations with WAiNK; no category must be completed in full.",
+      "steps": [
+        "Open WAiNK on your phone and scan landmarks, curiosities, sculptures and No Flusher tags while traveling.",
+        "Use any 100-location mixture from the reported 31 Landmarks, 35 Curiosities, 23 Sculptures and tags.",
+        "Track the phone collection counters and scan each new place once; repeating a scanned location should not be relied on as another location.",
+        "Author inference: scan during mission travel instead of making one long endgame circuit, then spend cleanup time only on missing scan classes."
+      ],
+      "sources": ["Official PSN description: WAiNK It at 100 locations.", "everytrophy.com — GTA VI full platinum guide: any combination of 100, and published counts for the listed location classes.", "Author inference: mission-route scanning is a time-saving plan, not a stated trophy condition."]
+    },
+    "32": {
+      "summary": "Leave flexible challenge cleanup late: the trophy needs 50 of 80, while 100% wants 70.",
+      "steps": [
+        "Enable challenge tracking and let common objectives resolve naturally during story and activity play.",
+        "After the major quests, open Challenges in the progress menu and identify the easiest incomplete ones.",
+        "Complete 50 distinct challenges for the trophy, then continue to 70 for the 100% checklist if needed.",
+        "Author inference: the final audit is a good place for this trophy because the menu tells you what remains; it is not a requirement to postpone every challenge."
+      ],
+      "sources": ["Official PSN description: Complete 50 Challenges.", "everytrophy.com — GTA VI full platinum guide: 80 total challenges, 70 for 100%, forward progress in the Challenges menu."]
+    },
+    "33": {
+      "summary": "A four-star escape specifically with your partner; breaking line of sight alone may not finish the condition.",
+      "steps": [
+        "Complete Coffee Break in Chapter 2 so Jason and Lucia can roam together, then call your partner before provoking police.",
+        "Raise your Wanted Level to four stars and leave the red heat zone while your partner is with you.",
+        "Everytrophy recommends the train tunnel north of Ambrosia in Kelly County for evading cars and helicopters.",
+        "Alternatively combine the attempt with a bank vault robbery, which the cited guide says always causes four stars."
+      ],
+      "chapter_gate": "After Chapter 2's Coffee Break",
+      "sources": ["Official PSN description: Lose a 4 star Wanted Level with your partner and escape the heat.", "everytrophy.com — GTA VI full platinum guide: partner-free-roam gate, red-zone exit, tunnel suggestion and bank-vault overlap."]
+    },
+    "34": {
+      "summary": "Maintain the flashing Wanted Level across three shops with your partner and give the unlock a moment after the third robbery.",
+      "steps": [
+        "Prepare armor, healing and sticky bombs with Jason and Lucia together before starting the first shop.",
+        "Rob three shops in succession without losing the flashing Wanted Level between them.",
+        "Everytrophy suggests the three close northern Vice City jewelry stores after Chapter 3's Yasmani's Jewelry Jobs.",
+        "After the third shop, wait around half a minute; if no trophy appears, the cited guide suggests robbing a fourth."
+      ],
+      "chapter_gate": "Shared roaming after Chapter 2; suggested jewelry route after Chapter 3",
+      "sources": ["Official PSN description: Rob 3 shops back-to-back with the partner without losing the Wanted Level.", "everytrophy.com — GTA VI full platinum guide: equipment, three-store route, Wanted Level behavior and delayed unlock/fourth-store advice."]
+    },
+    "35": {
+      "summary": "WAiNK scans, not purchases or test drives, are the efficient route to 100 discovered vehicles.",
+      "steps": [
+        "Open WAiNK and scan vehicles you have not recorded before; simply driving them is unnecessary.",
+        "Use traffic on a busy road to gather common models, and watch special locations for more unusual ones.",
+        "Continue until 100 vehicles are discovered, then push to 200 of 277 base models if completing A Long Road."
+      ],
+      "sources": ["Official PSN description: Discover 100 vehicles.", "everytrophy.com — GTA VI full platinum guide: phone scanning is sufficient and 100% uses a 200-of-277 base-model target."]
+    },
+    "36": {
+      "summary": "Five enemies must fall inside a single short Combat Focus activation, so preparation beats improvisation.",
+      "steps": [
+        "Fill Focus through food, drink or washing up at home, and use Adrenaline for a longer window as reported by everytrophy.",
+        "Raise Focus through Shooting Range work, equip an assault rifle and enter a gang operation with a group of enemies.",
+        "Aim, activate Combat Focus and take down five enemies before the effect ends.",
+        "The cited guide says cops, soldiers and civilians do not seem to qualify, so use hostile gang members for a reliable attempt."
+      ],
+      "sources": ["Official PSN description: Take down 5 enemies in a single use of Combat Focus.", "everytrophy.com — GTA VI full platinum guide: Focus replenishment, Adrenaline, rifle/gang setup and reported non-qualifying targets."]
+    },
+    "37": {
+      "summary": "The key is a passenger jet connected to a boarding gate, not an aircraft parked elsewhere at VCIA.",
+      "steps": [
+        "Enter Vice City International Airport and find a passenger jet docked to a boarding bridge; everytrophy recommends E3 or E4.",
+        "Get to its cockpit, back away from the gate onto the runway, take off and fly roughly 1 km from the airport.",
+        "Do not substitute a plane parked on the airfield: the cited guide says those aircraft do not count.",
+        "Author inference: use a manual save before attempting the breach if you prefer to separate a hostile airport incursion from other progression."
+      ],
+      "sources": ["Official PSN description: Make an unscheduled departure at VCIA.", "everytrophy.com — GTA VI full platinum guide: boarding-bridge-only condition, E3/E4 gates, takeoff and approximately 1 km departure threshold."]
+    },
+    "38": {
+      "summary": "A secret about getting a Rhino out of a military base and using its guns against enemies.",
+      "steps": [
+        "Travel to Mile Zero Air Station on Mariana County's southwest island and go to the base's south end.",
+        "Enter a Rhino tank and take out enemies while remaining inside it until the trophy unlocks.",
+        "Keep a spare save if you want a low-risk return point, but do not fire at civilians for Gunslinger as a planned combo because its qualifying targets differ."
+      ],
+      "sources": ["Official PSN description: Kinda hot in these Rhinos.", "everytrophy.com — GTA VI full platinum guide: Mile Zero location, south-end tanks and firing at enemies from the Rhino."]
+    },
+    "39": {
+      "summary": "Silent entry is essential; forcing the jewelry store's back door trips the alarm and ruins this specific approach.",
+      "steps": [
+        "Complete Chapter 3's Yasmani's Jewelry Jobs to receive the Snap Gun.",
+        "Use the Snap Gun on a jewelry store's locked rear door rather than kicking the door open.",
+        "Find the safe-code note in the back room, empty the safe and finish without being seen.",
+        "Richardson Jewelry & Diamonds in Vice City is the worked location named by everytrophy."
+      ],
+      "chapter_gate": "After Chapter 3's Yasmani's Jewelry Jobs",
+      "sources": ["Official PSN description: Rob a jewelry store without being detected.", "everytrophy.com — GTA VI full platinum guide: Snap Gun, locked rear entrance, code note, safe and worked-store example."]
+    },
+    "40": {
+      "summary": "Five of eight bank vaults are enough, and each job combines heavy loot with a guaranteed four-star escape.",
+      "steps": [
+        "Complete the optional Chapter 4 mission That's Where The Money Is… to unlock bank-vault robberies.",
+        "Follow a security van to its bank, enter its open vault and bring a partner to carry part of the heavy take; Yasmani reportedly sells van tips for $10,000.",
+        "Escape with a fast bike or vehicle switch after the automatic four-star Wanted Level.",
+        "Rob and escape five vaults for the trophy; clear all eight for 100%."
+      ],
+      "chapter_gate": "Chapter 4 optional robbery mission",
+      "sources": ["Official PSN description: Rob 5 Bank Vaults and escape.", "everytrophy.com — GTA VI full platinum guide: eight total vaults, optional mission gate, partner carrying, vehicle escape and five-versus-eight targets."]
+    },
+    "41": {
+      "summary": "Take an armored truck's loot and genuinely escape; the trophy is more than opening its doors.",
+      "steps": [
+        "Before bank jobs unlock, box in an armored truck and put a sticky bomb on its back doors.",
+        "Detonate the charge, collect the loot and escape the red heat zone.",
+        "Alternatively, use a bank-vault robbery, which everytrophy says can qualify as an armored truck robbery, then leave the red zone or pass through Pay 'n' Spray."
+      ],
+      "sources": ["Official PSN description: Rob an Armored Truck and escape.", "everytrophy.com — GTA VI full platinum guide: sticky-bomb rear-door approach and bank-vault overlap, followed by heat-zone escape."]
+    },
+    "42": {
+      "summary": "Map exploration counts cleared fog, not standing on every square meter.",
+      "steps": [
+        "Open the map and identify all remaining fogged regions across Leonida.",
+        "Use a plane for long, broad passes over dark areas rather than driving every road.",
+        "Continue until no unexplored map fog remains; the unlock is for exploration, not entering every individual property."
+      ],
+      "sources": ["Official PSN description: Explore all of Leonida.", "everytrophy.com — GTA VI full platinum guide: clearing map fog by plane is sufficient and faster than ground travel."]
+    },
+    "43": {
+      "summary": "Rob one illegal operation per gang and use the progress screen to avoid repeating already-counted gangs.",
+      "steps": [
+        "Open the map's yellow illegal-operation icons and identify the gang controlling the chosen site.",
+        "Complete the robbery and escape, then check the gangs section of the progress menu.",
+        "Rob one operation for each of the nine gangs to unlock the trophy.",
+        "Continue through all 39 operations only for the higher 100% completion requirement."
+      ],
+      "sources": ["Official PSN description: Rob an Illegal Operation belonging to each gang.", "everytrophy.com — GTA VI full platinum guide: nine gangs, yellow operation icons, per-gang progress tracking and 39-operation completion target."]
+    },
+    "44": {
+      "summary": "No verified cocktail location is published in the fetched primary guide; this entry preserves that uncertainty.",
+      "steps": [
+        "Visit Ocean Beach and look for a venue serving cocktails where you can sit with a view.",
+        "Author inference: try bar or rooftop interactions around the beach and watch for the trophy after ordering and enjoying the drink.",
+        "Do not treat that venue search as confirmed: everytrophy leaves this method pending verification."
+      ],
+      "sources": ["Official PSN description: Enjoy a cocktail with a view on Ocean Beach.", "everytrophy.com — GTA VI full platinum guide: catch-me-if-you-can method is published, but In The Beginning… is explicitly listed as method pending verification.", "GTA6 Field Guide — GTA 6 trophy list: does not supply a verified unlock method."]
+    },
+    "45": {
+      "summary": "The reported unlock method is unverified in the main fetched guide; the interpretation below is a labeled reading, not fact.",
+      "steps": [
+        "Find a vehicle showroom with a car displayed inside.",
+        "Author inference: enter the display vehicle and drive through a showroom glass front in one continuous smash-and-drive escape.",
+        "Check for the unlock, but retain this as an experimental lead because everytrophy lists no verified method."
+      ],
+      "sources": ["Official PSN description: Smash your way out of a vehicle showroom in classic style.", "everytrophy.com — GTA VI full platinum guide: Capital Offense is explicitly marked method pending verification.", "GTA6 Field Guide — GTA 6 trophy list: lists the trophy without a verified walkthrough.", "Author inference: the display-car-through-glass plan interprets only the official description and is not a confirmed unlock."]
+    },
+    "46": {
+      "summary": "Three distinctive valuables inside Kingpin Bowling, followed by an escape, explain the bowling-alley 'follow-through'.",
+      "steps": [
+        "Start the Chapter 2 optional Hit Kingpin Bowling mission to mark the gang operation in Port Gellhorn.",
+        "Take the southeast office luxury watch, the northeast table's Gutterball Moreland 850 shotgun, and the northeast hallway safe opened with sticky bombs.",
+        "Escape the police after collecting the third item; everytrophy says the trophy follows losing the heat, not the pickup itself.",
+        "Split collection across visits if needed, but expect the robbery to take a long time to return."
+      ],
+      "chapter_gate": "Chapter 2 optional operation",
+      "sources": ["Official PSN description: Follow-through at the Kolt & Associates' bowling alley.", "everytrophy.com — GTA VI full platinum guide: three named valuables, room positions, sticky bombs, escape trigger and reset delay."]
+    },
+    "47": {
+      "summary": "Both protagonists must reach maximum Strength, with joint workouts advancing them together.",
+      "steps": [
+        "Bring Jason and Lucia to a fitness-club activity together.",
+        "Train one character while the partner trains too; everytrophy says this doubles progress for the pair.",
+        "Check each character's Strength level in their menu and continue workouts until both are maximum.",
+        "After the story, use home training as an alternate reported way to finish."
+      ],
+      "sources": ["Official PSN description: A partnership with mass appeal.", "everytrophy.com — GTA VI full platinum guide: both characters' maximum Strength, paired workouts, fitness clubs and post-story home training."]
+    },
+    "48": {
+      "summary": "General play changes your Criminal Profile often enough that this hidden counter tends to complete naturally.",
+      "steps": [
+        "Enable Criminal Profile notifications in interface settings to see when your behavior changes the profile.",
+        "Perform 500 good or bad profile-changing actions; the cited guide says either direction counts.",
+        "Let routine missions, shopping and encounters contribute rather than deliberately forcing the permanent Irredeemable profile.",
+        "Avoid the Irredeemable state for this run: everytrophy reports it is permanent and increases police aggression."
+      ],
+      "sources": ["Official PSN description: Choices made (for better or worse).", "everytrophy.com — GTA VI full platinum guide: 500 profile-changing actions, either moral direction, notifications and Irredeemable warning."]
+    },
+    "49": {
+      "summary": "This is an intentionally unresolved secret, not a blind instruction to harm your save or repeat a random event.",
+      "steps": [
+        "Record encounters and NPC jobs whose resolution changes on a second attempt; the official description gives only a 'second time' hint.",
+        "Author inference: retry a failed or repeated random encounter once, then check the trophy counter after the second outcome.",
+        "Treat that as a narrow test lead only: no verified unlock method appears in either externally fetched page."
+      ],
+      "sources": ["Official PSN description: Second time's the charm.", "everytrophy.com — GTA VI full platinum guide: no published verified method for this secret.", "GTA6 Field Guide — GTA 6 trophy list: publishes the name and description, not unlock steps.", "Author inference: the second-encounter suggestion interprets the description and remains unconfirmed."]
+    },
+    "50": {
+      "summary": "The trophy title and description suggest a strange encounter, but that is not a verified location guide.",
+      "steps": [
+        "Explore unusual lights, odd NPC events and off-route points of interest, especially during travel away from mandatory story paths.",
+        "Author inference: watch an unexplained encounter through to its end instead of immediately leaving or attacking; this fits the description but is not confirmed.",
+        "Check the trophy after the encounter and document any repeatable location, weather or time condition for another attempt."
+      ],
+      "sources": ["Official PSN description: What the hell just happened?", "everytrophy.com — GTA VI full platinum guide: explicitly lists The Truth Is Out There as method pending verification.", "GTA6 Field Guide — GTA 6 trophy list: no verified unlock steps.", "Author inference: the unusual-event route is speculative interpretation, not a reported unlock."]
+    },
+    "51": {
+      "summary": "A melee drive-by is the published clue; the required number of people and exact targets are unverified.",
+      "steps": [
+        "Drive slowly alongside a target with a melee weapon available.",
+        "Author inference: use the vehicle-side melee attack to knock them down, then try another nearby target without ending the sequence.",
+        "Do not assume ten victims are required: 'Ten Pin' is a name, and both fetched sources leave the exact method and count unverified."
+      ],
+      "sources": ["Official PSN description: Bowl 'em over with a melee drive-by.", "everytrophy.com — GTA VI full platinum guide: Ten Pin among secrets with method pending verification.", "GTA6 Field Guide — GTA 6 trophy list: reproduces the title but provides no verified count.", "Author inference: vehicle-side melee chaining is the guide author's experimental reading, not a confirmed method."]
+    },
+    "52": {
+      "summary": "Launder a running $250,000 total through fences after getting the tool that neutralizes the bills' dye packs.",
+      "steps": [
+        "Complete Chapter 3's Credit Check for the Dye Pack Jammer.",
+        "Rob banks and Payday Loans, then take the Marked Bills to a contact who fences them.",
+        "Use Yasmani in Vice City for the reported best return and continue until laundering proceeds total $250,000.",
+        "Benefit from the cumulative total across jobs; you do not need one $250,000 transaction."
+      ],
+      "chapter_gate": "After Chapter 3's Credit Check",
+      "sources": ["Official PSN description: Earn $250,000 laundering Marked Bills through your contacts.", "everytrophy.com — GTA VI full platinum guide: Dye Pack Jammer gate, banks/Payday Loans, Marked Bill fences, Yasmani's rates and cumulative accounting."]
+    },
+    "53": {
+      "summary": "A lifetime $100,000 shop-spending counter, spread across all eligible shops.",
+      "steps": [
+        "Keep track of cumulative spending rather than trying to buy a single $100,000 item.",
+        "Use routine gun, vehicle modification and tattoo purchases to move the total while they also support your build.",
+        "After other objectives, finish any shortfall at a gun store or mod shop until all-shop spending reaches $100,000."
+      ],
+      "sources": ["Official PSN description: Spend $100,000 across all shops.", "everytrophy.com — GTA VI full platinum guide: cumulative total across shops and faster categories for closing the gap."]
+    },
+    "54": {
+      "summary": "Buy the eight real-estate garages; the four story grants do not count.",
+      "steps": [
+        "Complete Chapter 2's Daily Driver to receive the Vice City Real Estate app.",
+        "Open it and purchase all eight listed garage properties, allowing roughly $160,000 in total according to everytrophy.",
+        "Do not count story-supplied garages toward those eight.",
+        "Use the added spaces to keep vehicles for On the Spot's separate ten-registration target."
+      ],
+      "chapter_gate": "After Chapter 2's Daily Driver",
+      "sources": ["Official PSN description: Purchase all garage properties.", "everytrophy.com — GTA VI full platinum guide: eight purchased garages, real-estate-app unlock, approximate cost and four excluded story grants."]
+    },
+    "55": {
+      "summary": "Moses' Scooter Bros service turns ten stolen vehicles into registered ones, provided they are resprayed and have a space.",
+      "steps": [
+        "Complete Moses' Chapter 2 mission to unlock Scooter Bros and visit his garage in Port Gellhorn.",
+        "At first, bring cars without trackers; from Chapter 3, everytrophy says tracked vehicles can go through any Pay 'n' Spray.",
+        "Respray and register ten vehicles, buying affordable garages and choosing cheap cars or bikes to limit costs.",
+        "Ensure garage space is free before each registration and count completed registrations, not merely stolen vehicles."
+      ],
+      "chapter_gate": "Moses mission in Chapter 2; tracked-vehicle path in Chapter 3",
+      "sources": ["Official PSN description: Register 10 vehicles to the Scooter Bros app.", "everytrophy.com — GTA VI full platinum guide: Moses' garage, tracker restrictions, respray/registration steps, garage-space and cost overlap."]
+    }
+  }
+}

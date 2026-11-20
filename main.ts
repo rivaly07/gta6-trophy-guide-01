@@ -14,13 +14,29 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+
+const trophies = JSON.parse(readFileSync(join(here, 'app/data/trophies.json'), 'utf8')).trophies.map((t: { id: number }) => ({ ...t, id: String(t.id) }));
+const guides = JSON.parse(readFileSync(join(here, 'app/data/guides.json'), 'utf8')).guides;
+const problems = [];
+for (const trophy of trophies) {
+  const guide = guides[trophy.id];
+  if (!guide) {
+    problems.push(`${trophy.id}: missing guide`);
+    continue;
+  }
+  if (!Array.isArray(guide.sources) || guide.sources.length === 0 || guide.sources.some((source: unknown) => typeof source !== 'string' || source.trim() === '')) problems.push(`${trophy.id}: no non-empty sources`);
+  else if (!Array.isArray(guide.steps) || guide.steps.length < 2 || guide.steps.length > 4) problems.push(`${trophy.id}: expected 2–4 steps`);
+}
+for (const id of Object.keys(guides)) if (!trophies.some((t: { id: string }) => t.id === id)) problems.push(`${id}: guide has no matching trophy`);
+if (problems.length) throw new Error(`Guide preflight failed:\n${problems.join('\n')}`);
+console.log(`Guide coverage: ${trophies.length}/${trophies.length} trophies have ordered steps and named sources.`);
 
 mkdirSync(out, { recursive: true });
 cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });
