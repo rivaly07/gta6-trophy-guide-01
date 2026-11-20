@@ -6,7 +6,7 @@ const categories = { story: 'Story', side: 'Side jobs', activities: 'Activities'
 const meta = {
   1: { category: 'opportunistic', hidden: false }, 2: { category: 'story', hidden: false }, 3: { category: 'story', hidden: false }, 4: { category: 'story', hidden: false }, 5: { category: 'story', hidden: false }, 6: { category: 'story', hidden: false }, 7: { category: 'story', hidden: false }, 8: { category: 'story', hidden: false }, 9: { category: 'story', hidden: false }, 10: { category: 'story', hidden: false }, 11: { category: 'story', hidden: false }, 12: { category: 'story', hidden: false }, 13: { category: 'story', hidden: false }, 14: { category: 'mastery', hidden: false }, 15: { category: 'activities', hidden: false }, 16: { category: 'activities', hidden: false }, 17: { category: 'activities', hidden: false }, 18: { category: 'activities', hidden: false }, 19: { category: 'activities', hidden: false }, 20: { category: 'activities', hidden: false }, 21: { category: 'activities', hidden: false }, 22: { category: 'side', hidden: false }, 23: { category: 'side', hidden: false }, 24: { category: 'side', hidden: false }, 25: { category: 'side', hidden: false }, 26: { category: 'side', hidden: false }, 27: { category: 'side', hidden: false }, 28: { category: 'side', hidden: false, missable: true }, 29: { category: 'side', hidden: false }, 30: { category: 'activities', hidden: false }, 31: { category: 'activities', hidden: false }, 32: { category: 'activities', hidden: false }, 33: { category: 'side', hidden: false }, 34: { category: 'robberies', hidden: false }, 35: { category: 'activities', hidden: false }, 36: { category: 'mastery', hidden: false }, 37: { category: 'secrets', hidden: false }, 38: { category: 'secrets', hidden: false }, 39: { category: 'robberies', hidden: false }, 40: { category: 'robberies', hidden: false }, 41: { category: 'robberies', hidden: false }, 42: { category: 'activities', hidden: false }, 43: { category: 'robberies', hidden: false }, 44: { category: 'secrets', hidden: true }, 45: { category: 'secrets', hidden: true }, 46: { category: 'robberies', hidden: true }, 47: { category: 'secrets', hidden: true }, 48: { category: 'secrets', hidden: true }, 49: { category: 'secrets', hidden: true }, 50: { category: 'secrets', hidden: true }, 51: { category: 'secrets', hidden: true }, 52: { category: 'money', hidden: false }, 53: { category: 'money', hidden: false }, 54: { category: 'money', hidden: false }, 55: { category: 'side', hidden: false },
 };
-const gradeOrder = { platinum: 0, gold: 1, silver: 2, bronze: 3 };
+const effortLabel = t => t.effort || `${t.steps.length || 0} documented steps`;
 const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; };
 const infer = s => s.replace(/^(Strongly inferred|Inferred|Likely|Expected|Suggested|Start by|For readability|Leave this one)/, 'Author inference: $1');
 
@@ -19,7 +19,7 @@ async function main() {
   let data;
   try { data = await load(); } catch (e) { $('results-count').textContent = 'Could not load local data: ' + e.message; console.error(e); return; }
   const { trophies: raw, guides } = data;
-  const trophies = raw.map(t => { const g = guides[String(t.id)], existing = t, m = meta[t.id]; const id = String(t.id); const guide = g; return { ...existing, id, category: existing.category ?? m?.category ?? 'opportunistic', hidden: existing.hidden_override ?? m?.hidden ?? false, missable: existing.missable ?? m?.missable ?? false, online: existing.online ?? false, difficulty: existing.difficulty ?? 5, estimated_hours_to_get: existing.estimated_hours_to_get ?? existing.time_to_platinum ?? 1, steps: guide?.steps || [] }; });
+  const trophies = raw.map(t => { const g = guides[String(t.id)], existing = t, m = meta[t.id]; const id = String(t.id); return { ...existing, id, hidden: m?.hidden ?? false, category: m?.category ?? 'opportunistic', missable: m?.missable ?? false, online: false, effort: g?.effort || 'Author planning note in the guide', steps: g?.steps || [] }; });
   const byId = new Map(trophies.map(t => [t.id, t]));
   const state = { q: '', grade: 'all', category: 'all', missable: 'all', earned: 'all', spoilers: false, tab: 'trophies' };
   const safe = localStorage.getItem(storeKey); let parsed = {};
@@ -76,7 +76,7 @@ async function main() {
       mid.append(meta);
       mid.append(el('p', `desc${hidden ? ' redacted' : ''}`, hidden ? 'Complete the story steps or toggle “Reveal spoilers” to see this entry.' : t.description));
       card.append(mid);
-      const side = el('div', 'card-side'); side.append(el('strong', '', `~${t.estimated_hours_to_get} h`), el('span', '', g?.steps?.length ? `${g.steps.length} guide steps` : 'Guide unavailable'), el('span', '', `Tier ${t.difficulty}/10`)); card.append(side);
+      const side = el('div', 'card-side'); side.append(el('strong', '', `${g?.steps?.length || 0} steps`), el('span', '', g?.sources?.length ? `${g.sources.length} sources` : 'No sources'), el('span', '', t.character || t.guide?.match?.(/(?:Jason|Lucia either)/)?.[0] || 'Read the field guide')); card.append(side);
       card.addEventListener('click', () => openGuide(t.id)); list.append(card);
     }
     updateProgress(); setChips('grade-filters', 'grade', 'grade'); setChips('category-filters', 'category', 'category'); setChips('missable-filters', 'missable', 'missable'); setChips('earned-filters', 'earned', 'earned');
@@ -89,7 +89,7 @@ async function main() {
     const head = el('p', 'eyebrow', `${t.grade.toUpperCase()} · ${categories[t.category]}${t.missable ? ' · POTENTIAL MISSABLE' : ''}`); c.append(head);
     c.append(el('h2', '', hidden ? 'Hidden trophy' : t.name));
     const title = c.querySelector('h2'); title.id = 'dialog-title';
-    const tags = el('div', 'tags'); tags.append(el('span', 'tag', `Difficulty ${t.difficulty}/10`), el('span', 'tag', `~${t.estimated_hours_to_get} h`), el('span', 'tag', t.online ? 'Online' : 'Single-player')); c.append(tags);
+    const tags = el('div', 'tags'); tags.append(el('span', 'tag', `${g.steps.length} ordered steps`), el('span', 'tag', `${g.sources.length} named sources`), el('span', 'tag', t.online ? 'Online' : 'Single-player')); c.append(tags);
     c.append(el('p', 'official', hidden ? 'Official description hidden until earned or spoilers are enabled.' : t.description));
     c.append(el('h3', '', 'Field procedure'));
     const ol = el('ol', 'steps');
@@ -120,7 +120,7 @@ async function main() {
       const wrap = el('section', 'stage'); const idx = el('div', 'stage-index', String(s.n).padStart(2, '0'));
       const body = el('div', 'stage-body'); body.append(el('p', 'kicker', `STAGE ${s.n}`), el('h3', '', s.title), el('p', '', s.desc));
       const items = el('div', 'stage-items');
-      for (const t of s.entries) { const hidden = isHidden(t, earned, state.spoilers); const it = el('button', 'stage-item'); it.type = 'button'; it.append(el('strong', '', hidden ? 'Hidden trophy' : t.name), el('small', '', `${t.grade} · ${t.estimated_hours_to_get} h${earned.has(t.id) ? ' · earned' : ''}`)); it.onclick = () => openGuide(t.id); items.append(it); }
+      for (const t of s.entries) { const hidden = isHidden(t, earned, state.spoilers); const it = el('button', 'stage-item'); it.type = 'button'; it.append(el('strong', '', hidden ? 'Hidden trophy' : t.name), el('small', '', `${t.grade} · ${t.steps.length} steps${earned.has(t.id) ? ' · earned' : ''}`)); it.onclick = () => openGuide(t.id); items.append(it); }
       body.append(items); wrap.append(idx, body); return wrap;
     });
   }
